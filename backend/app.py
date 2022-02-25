@@ -10,8 +10,10 @@ def home():
     return render_template('./front.html')
 
 # grape_black_rot- test.JPG
-@app.route('/plantdisease/<filepath>', methods = ['GET'])
-def get_product_by_id(filepath):
+@app.route('/plantdisease', methods = ['GET'])
+def get_product_by_id():
+    print(request.args.get("filepath"))
+    filepath = request.args.get("filepath")
     # load the image
     img = load_image(filepath)
     #prediction will be an array of values; index corresp to max value will be used to get the class label

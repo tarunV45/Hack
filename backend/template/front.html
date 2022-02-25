@@ -3,6 +3,7 @@
     <style>
         body{
             background-color: black;
+            color: white;
         }
         p,li,h2{
             color: white
@@ -12,14 +13,26 @@
 <body>
     <h1 style="color: white;" align="center">AGrin Legion</h1>
     <p>
-        Your destination for AI based agri solutions!<br>The following are the functonialies we provide:
+        Your destination for AI based agri solutions!
     </p>
     <h2>Plant Disease Prediction</h2>
-    <span style="background-color: white;">http://127.0.0.1:5000/plantdisease/<span style="color: green;">{filePath}</span></span>
-    <br>
-    <span style="color: white;">
+    <span>
         Input file path of your image file of your crop and retrieve the disease description
         and the supplements needed for the disease as a response in  json format.
+    </span>
+    <br>
+    <span>
+        <h3>Request:</h3>
+        <span style="background-color: white; color:black">http://127.0.0.1:5000/plantdisease?filepath=<span style="color: green;">{filePath}</span></span>
+        <br>
+        <h3>Response:</h3>
+        <div style="background-color: white; color:black; width:fit-content;">
+            {<br>
+             &nbsp;  &nbsp;"classname":<span style="color: green;">{classname}</span><br>
+             &nbsp;  &nbsp;"description":<span style="color: green;">{description}</span><br>
+             &nbsp;  &nbsp;"supplements":<span style="color: green;">{supplements}</span><br>
+            }
+        </div>
     </span>
 </body>
 </html>
