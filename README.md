@@ -1,6 +1,11 @@
 # AGrin Legion
 AGrin Legion ('A Green' Legion) provides AI based solutions for agricultural problems. Done as a part of the Hack and Tackle hackathon, 2022.
 
+### Frontend Usage:
+* Navigate to 'frontend' folder
+* ``` npm install ```
+* ``` npm start ```
+
 ### Backend Usage:
 * Navigate to 'backend' folder
 * ``` pip install -r requirements.txt ```
