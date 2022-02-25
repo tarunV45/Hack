@@ -1,5 +1,5 @@
 # AGrin Legion
-AI based solutions for agricultural problems. Done as a part of the Hack and Tackle hackathon, 2022.
+AGrin Legion ('A Green' Legion) provides AI based solutions for agricultural problems. Done as a part of the Hack and Tackle hackathon, 2022.
 
 ### Backend Usage:
 * Navigate to 'backend' folder
