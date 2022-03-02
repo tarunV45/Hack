@@ -16,4 +16,4 @@ AGrin Legion ('A Green' Legion) provides AI based solutions for agricultural pro
 
 ### Team Members:
 <a href="https://github.com/swetha4444">Swetha Saseendran</a><br>
-<a href="https://github.com/Vyshu079">S Vyshali</a>
+<a href="https://github.com/Vyshu079">S Vyshali</a><br>
